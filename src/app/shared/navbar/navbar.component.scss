@@ -1,0 +1,24 @@
+@import '../../../assets/sass/paper-kit/variables';
+
+.navbar ,.navbar.navbar-transparent{
+    *:not( .btn > *, a > * ), .nav-link{
+        color: $font-color;
+    }
+    .btn, a{
+        color: $white-color;
+    }
+}
+
+.navbar-brand{
+    .logo{
+        height: 3rem;
+    }
+}
+
+.nav-link {
+    &.active{
+        *{
+            color: #d70046 !important;
+        }
+    }
+}
